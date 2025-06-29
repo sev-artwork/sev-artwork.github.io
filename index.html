@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sev's official art hub. Links to Patreon, Twitter, and more." />
+  <title>Sev</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root {
+      --bg-color: #121212;
+      --text-color: #f0f0f0;
+      --button-bg: #1f1f1f;
+      --button-hover: #333;
+      --accent-color: #ff4d6d;
+    }
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      margin: 0;
+      padding: 2rem;
+    }
+    h1 {
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+    }
+    .link-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      width: 100%;
+      max-width: 400px;
+    }
+    .link-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+      background: var(--button-bg);
+      color: var(--text-color);
+      padding: 1rem;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: background 0.3s;
+    }
+    .link-button:hover {
+      background: var(--button-hover);
+    }
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sev</h1>
+  <div class="link-grid">
+    <a class="link-button" href="https://patreon.com/SevHentai" target="_blank">
+      <i class="fab fa-patreon"></i> Patreon
+    </a>
+    <a class="link-button" href="https://twitter.com/SevHentai" target="_blank">
+      <i class="fab fa-twitter"></i> Twitter
+    </a>
+
+    <!-- These links are hidden for now. You can show them by removing the "hidden" class. -->
+    <a class="link-button hidden" href="https://gumroad.com/yourstore" target="_blank">
+      <i class="fas fa-store"></i> Gumroad
+    </a>
+    <a class="link-button hidden" href="https://subscribestar.adult/yourpage" target="_blank">
+      <i class="fas fa-star"></i> Subscribestar
+    </a>
+
+    <a class="link-button hidden" href="https://instagram.com/yourhandle" target="_blank">
+      <i class="fab fa-instagram"></i> Instagram
+    </a>
+    <a class="link-button hidden" href="https://facebook.com/yourpage" target="_blank">
+      <i class="fab fa-facebook"></i> Facebook
+    </a>
+    <a class="link-button hidden" href="https://tiktok.com/@yourhandle" target="_blank">
+      <i class="fab fa-tiktok"></i> TikTok
+    </a>
+    <a class="link-button hidden" href="https://pixiv.net/en/users/yourid" target="_blank">
+      <i class="fas fa-palette"></i> Pixiv
+    </a>
+    <a class="link-button hidden" href="https://deviantart.com/yourhandle" target="_blank">
+      <i class="fab fa-deviantart"></i> DeviantArt
+    </a>
+  </div>
+</body>
+</html>
