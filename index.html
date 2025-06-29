@@ -73,10 +73,21 @@
     .hidden {
       display: none;
     }
+	.header-icon {
+       width: 32px;
+       height: 32px;
+       vertical-align: middle;
+       margin-right: 0.5rem;
+       border-radius: 50%; /* makes the square image appear circular */
+       object-fit: cover; /* ensures the image covers the area nicely */
+    }
   </style>
 </head>
 <body>
-  <h1>Sev</h1>
+  <h1>
+  <img src="images/sev-icon.jpg" alt="Sev Icon" class="header-icon">
+  Sev
+  </h1>
   <div class="link-grid">
     <a class="link-button" href="https://patreon.com/SevHentai" target="_blank">
       <i class="fab fa-patreon"></i> Patreon
